@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", "Inter", sans-serif;
+  --font-heading: "Space Grotesk", "Clash Display", sans-serif;
+  
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-background-dark: var(--bg);
+  --color-background-card: var(--bg-card);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+}
+
+:root {
+  /* Light Mode */
+  --primary: #FE00FF;
+  --primary-hover: #BD00E7;
+  --bg: #F2F0EF;
+  --bg-card: #FFFFFF;
+  --text-main: #000000;
+  --text-muted: #292929;
+  --border: rgba(0, 0, 0, 0.1);
+  color-scheme: light;
+}
+
+.dark {
+  /* Dark Mode */
+  --primary: #FE00FF;
+  --primary-hover: #BD00E7;
+  --bg: #000000;
+  --bg-card: #292929;
+  --text-main: #F2F0EF;
+  --text-muted: #A3A3A3;
+  --border: rgba(242, 240, 239, 0.1);
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background-dark);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Utilities for glowing effects */
+.glow-primary {
+  box-shadow: 0 0 24px rgba(254, 0, 255, 0.4);
+}
+.glow-primary:hover {
+  box-shadow: 0 0 36px rgba(189, 0, 231, 0.6);
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
