@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "Meu número pode ser banido?",
-    a: "O CRM WHATSAPP foi desenvolvido com práticas seguras de uso. Seguindo as orientações de uso, o risco é mínimo."
+    a: "SIM! Se você não seguir nossas práticas seguras de disparo em massa você terá o seu número banido. Nós damos toda orientação de como usar o recurso de forma segura."
   },
   {
     q: "Funciona para equipes com vários atendentes?",
@@ -42,7 +42,7 @@ export default function Pricing() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-black font-heading text-center mb-12"
           >
-            Perguntas que todo mundo <br className="hidden md:block"/> faz antes de contratar
+            Perguntas que todo mundo <br className="hidden md:block"/> faz <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-hover">antes de contratar</span>
           </motion.h2>
 
           <div className="flex flex-col gap-4">

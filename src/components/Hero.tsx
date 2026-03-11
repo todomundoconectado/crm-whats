@@ -36,7 +36,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-text-muted font-medium max-w-3xl mb-8 leading-relaxed"
         >
-          Enquanto você responde um por um, seu concorrente já fechou 10 negócios no automático.
+          Enquanto você responde um por um, seu concorrente já fechou 10 negócios por usar as ferramentas certas.
         </motion.p>
         
         <motion.p
@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg md:text-xl text-text-muted max-w-2xl mb-12"
         >
-          O CRM WHATSAPP transforma o seu WhatsApp Web em uma máquina de vendas completa - com CRM, automação, chatbot, follow-up automático e disparo em massa. Tudo sem trocar de sistema.
+          O CRM WHATSAPP é uma extensão que transforma o WhatsApp Web em uma plataforma profissional de vendas e atendimento. Sem migrar para outro app. Sem treinamento complicado. Nós instalamos para você, configuramos e ajudamos nas configurações que você precisa para começar a vender com mais velocidade.
         </motion.p>
 
         <motion.div
@@ -53,13 +53,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <button className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary hover:bg-primary-hover text-white rounded-full text-lg font-bold transition-all hover:scale-105 active:scale-95 glow-primary overflow-hidden">
+          <a href="https://wa.me/551931670209?text=Quero%20implantar%20o%20CRM%20no%20meu%20Whatsapp.%20Como%20podemos%20seguir%3F" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary hover:bg-primary-hover text-white rounded-full text-lg font-black transition-all hover:scale-105 active:scale-95 glow-primary overflow-hidden">
             <span className="relative z-10 flex items-center gap-2">
               Quero automatizar meu atendimento agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
-          </button>
+          </a>
         </motion.div>
       </div>
 

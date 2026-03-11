@@ -52,7 +52,7 @@ export default function PainPoints() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-4xl md:text-6xl font-black font-heading tracking-tight mb-6"
           >
-            Reconhece alguma <br className="hidden md:block" /> dessas situações?
+            Reconhece alguma <br className="hidden md:block" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-hover">dessas situações?</span>
           </motion.h2>
         </div>
 

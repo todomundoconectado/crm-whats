@@ -32,13 +32,10 @@ export default function Solution() {
           className="text-center max-w-4xl mb-24"
         >
           <h2 className="text-4xl md:text-6xl font-black font-heading mb-8 leading-tight">
-            Apresentamos o CRM WHATSAPP: <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-hover">
-              o CRM que vive dentro do seu WhatsApp
-            </span>
+            Adicione um CRM dentro do seu <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-hover font-black">WHATSAPP</span>
           </h2>
           <p className="text-xl md:text-2xl text-text-muted leading-relaxed">
-            O CRM WHATSAPP é uma extensão que transforma o WhatsApp Web em uma plataforma profissional de vendas e atendimento. Sem migrar para outro app. Sem treinamento complicado. Você instala, configura e começa a vender mais ainda hoje.
+            O CRM WHATSAPP é uma extensão que transforma o WhatsApp Web em uma plataforma profissional de vendas e atendimento. Sem migrar para outro app. Sem treinamento complicado. Nós instalamos para você, configuramos e ajudamos nas configurações que você precisa para começar a vender com mais velocidade.
           </p>
         </motion.div>
 

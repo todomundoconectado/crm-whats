@@ -33,13 +33,13 @@ export default function Footer() {
           viewport={{ once: true }}
           className="flex flex-col sm:flex-row items-center gap-6 mb-32 w-full sm:w-auto"
         >
-          <button className="w-full sm:w-auto group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary hover:bg-primary-hover text-white rounded-full text-lg font-bold transition-all hover:scale-105 active:scale-95 glow-primary overflow-hidden">
+          <a href="https://wa.me/551931670209?text=Quero%20implantar%20o%20CRM%20no%20meu%20Whatsapp.%20Como%20podemos%20seguir%3F" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary hover:bg-primary-hover text-white rounded-full text-lg font-black transition-all hover:scale-105 active:scale-95 glow-primary overflow-hidden">
             <span className="relative z-10 flex items-center gap-2">
               Quero o CRM WHATSAPP agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
-          </button>
+          </a>
           
           <button className="w-full sm:w-auto px-8 py-4 rounded-full text-lg font-bold text-text-main bg-text-main/5 hover:bg-text-main/10 border border-border transition-colors">
             Ver demonstração

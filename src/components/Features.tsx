@@ -21,7 +21,7 @@ const featureList = [
   {
     icon: <SendHorizontal className="w-8 h-8 text-[--color-text-main]" />,
     title: "Envio em Massa",
-    desc: "Crie campanhas e dispare para centenas de contatos com personalização. Sem banimento.",
+    desc: "Crie campanhas e dispare para centenas de contatos com personalização de forma ilimitada.",
     colSpan: "col-span-1 md:col-span-4",
     color: "from-primary/20 to-transparent"
   },
@@ -73,7 +73,7 @@ export default function Features() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-5xl md:text-7xl font-black font-heading leading-none"
           >
-            Tudo que você precisa para <br className="hidden md:block"/> vender mais - <span className="text-primary">em um só lugar</span>
+            Tudo que você precisa para <br className="hidden md:block"/> vender mais em <span className="text-primary">um só lugar</span>
           </motion.h2>
         </div>
 
