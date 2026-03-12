@@ -53,12 +53,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <a href="https://wa.me/551931670209?text=Quero%20implantar%20o%20CRM%20no%20meu%20Whatsapp.%20Como%20podemos%20seguir%3F" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary hover:bg-primary-hover text-white rounded-full text-lg font-black transition-all hover:scale-105 active:scale-95 glow-primary overflow-hidden">
-            <span className="relative z-10 flex items-center gap-2">
-              Quero automatizar meu atendimento agora
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
+          <a href="https://wa.me/551931670209?text=Quero%20implantar%20o%20CRM%20no%20meu%20Whatsapp.%20Como%20podemos%20seguir%3F" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(255,0,255,0.3)] hover:shadow-[0_0_30px_rgba(255,0,255,0.5)] flex items-center justify-center gap-2 group">
+            Quero automatizar meu atendimento agora
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>
       </div>

@@ -6,6 +6,7 @@ import Solution from './components/Solution';
 import Features from './components/Features';
 import Benefits from './components/Benefits';
 import Pricing from './components/Pricing';
+import RoiSection from './components/RoiSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Solution />
         <Features />
         <Benefits />
+        <RoiSection />
         <Pricing />
       </main>
 

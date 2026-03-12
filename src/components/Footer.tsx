@@ -41,9 +41,9 @@ export default function Footer() {
             <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
           </a>
           
-          <button className="w-full sm:w-auto px-8 py-4 rounded-full text-lg font-bold text-text-main bg-text-main/5 hover:bg-text-main/10 border border-border transition-colors">
+          <a href="https://wa.me/551931670209?text=Quero%20implantar%20o%20CRM%20no%20meu%20Whatsapp.%20Como%20podemos%20seguir%3F" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full text-lg font-bold text-text-main bg-text-main/5 hover:bg-text-main/10 border border-border flex items-center justify-center transition-colors">
             Ver demonstração
-          </button>
+          </a>
         </motion.div>
 
         {/* Footer Bottom */}
